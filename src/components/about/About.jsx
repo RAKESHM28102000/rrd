@@ -20,17 +20,17 @@ const About = () => {
                <h4>POOR PERFORMANCE</h4>
                <p>Stretching capacity to support significantly more users results in inadequate compute, memory or storage resources—and sub-par performance.</p>
            </div>
-         <div className='about-3-card'>
-           <img src='./images/orginability.png' alt='about-img' width='100%' height='150px'/>
-           <h4>INABILITY TO MEET UNEXPECTED DEMAND</h4>
-           <p>Maxing out data center resources for existing operations can make it difficult to support growth.</p>
+          <div className='about-3-card'>
+               <img src='./images/orginability.png' alt='about-img' width='100%' height='150px'/>
+               <h4>INABILITY TO MEET UNEXPECTED DEMAND</h4>
+               <p>Maxing out data center resources for existing operations can make it difficult to support growth.</p>
+           </div>
+          <div className='about-3-card'>
+              <img src='./images/orgbusiness.png' alt='about-img' width='100%' height='150px'/>
+             <h4>BUSINESS CONTINUITY CONCERNS</h4>
+             <p>Repurposing secondary or backup data centers for daily operations leaves organizations unprepared for the future.</p>
+           </div>
         </div>
-        <div className='about-3-card'>
-           <img src='./images/orgbusiness.png' alt='about-img' width='100%' height='150px'/>
-          <h4>BUSINESS CONTINUITY CONCERNS</h4>
-          <p>Repurposing secondary or backup data centers for daily operations leaves organizations unprepared for the future.</p>
-        </div>
-    </div>
      {/* about-sub-4 */}
      <div className='about-4-card'>
         <FaExclamationCircle  className='about-4-icon'/>

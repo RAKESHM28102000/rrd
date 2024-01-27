@@ -1,5 +1,6 @@
 import './App.css';
 import About from './components/about/About';
+import Cloudjourney from './components/cloudjourney/Cloudjourney';
 import Home from './components/home/Home';
 import Hybrid from './components/hybrid/Hybrid';
 import Navbar from './components/navbar/Navbar';
@@ -13,6 +14,7 @@ function App() {
     <About/>
     <Sectioncloud/>
     <Hybrid/>
+    <Cloudjourney/>
     </div>
   );
 }

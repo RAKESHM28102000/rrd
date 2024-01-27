@@ -52,7 +52,7 @@ on-demand scalability.'
              compared to traditional
              <br/> on-premises data centers.</p>
          </div>
-         <div    className='cloud-3-child'>
+         <div  className='cloud-3-child'>
            <img src='./images/26per.png'  alt='home-2-img' width="100%" height="200px"/>
            <p className='cloud-3-p'><span 
           className='cloud-3-span'>26%</span>  reduction in <br/>
