@@ -1,0 +1,27 @@
+.cloudcard{
+    display:flex;
+    gap:10px;
+    justify-content:start;
+    align-items: center;
+    width:100%;
+    margin-bottom:20px;
+    .cloud-icon{
+        width:50px;
+        height:50px;
+        border-radius:50%;
+         border:5px solid darkcyan;
+     }
+    .cloudcard-div{
+        display:flex;
+        justify-content:start;
+        flex-direction: column;
+        text-align: left;
+        .cloudcard-div-h2{
+            color:rgb(27, 202, 255);
+            font-size:25px;
+        }
+        .cloudcard-div-p{
+            font-size:20px;
+         }
+    }
+}

@@ -1,0 +1,30 @@
+.about-4-card{
+    display:flex;
+    align-items:center;
+    padding:10px;
+    width:100%;
+    background-color:rgb(186, 186, 186) !important;
+    backdrop-filter: blur(10px);
+    .about-4-icon{
+        width:40px;
+        height:40px;
+        color:rgb(27, 202, 255);
+        padding-left:10px;
+        border-radius:50%;
+        border-color:rgb(68, 118, 255);
+    }
+    .about-4-para{
+        width:100%;
+        padding:10px;
+        text-align:left;
+        font-size:20px;
+        .about-4-span1{
+            color:rgb(27, 202, 255);
+            font-size:25px;
+        }
+        .about-4-span2{
+             font-size:20px;
+             font-weight: bold;
+        }
+    }
+}
