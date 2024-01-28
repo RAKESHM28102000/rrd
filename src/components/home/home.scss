@@ -25,16 +25,14 @@
       .home-p{
         font-size:72px;
         text-align: left;
-        padding-left:5px;
+        padding-right:20px;
         letter-spacing:3px;
-        text-wrap:nowrap;
         position: relative;
         z-index:99;
         @media(min-width:786px) and (max-width:1024px){
                 font-size:50px;
         }
         @media(max-width:768px){
-                text-wrap:wrap;
                 padding:10px;
                 font-size:40px;
                 
@@ -53,8 +51,9 @@
         border:10px inset  rgb(27, 202, 255);;
         clip-path: polygon(67% 6%, 100% 6%, 100% 100%, 75% 100%, 0 100%, 27% 63%);
         @media(max-width:768px){
-                clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
-
+                // clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+               border-radius:50%;
+               clip-path: none;
               }
        }
     }

@@ -9,3 +9,14 @@
     
   }
 }
+.flex-row{
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
+}
+.flex-column{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width:100%;
+}

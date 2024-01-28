@@ -6,10 +6,10 @@ const Home = () => {
     {/* section 1*/}
     <div className='home'>
      <div className='home-content'>
-        <p className='home-p'>Optimize VDI for the</p>
-        <p className='home-p'>Future with Hybrid</p>
-        <p className='home-p'>Cloud Management</p>
-        <p className='home-p'>and Deployment</p>
+        <p className='home-p'>Optimize VDI for the Future with Hybrid Cloud Management and Deployment</p>
+        {/* <p className='home-p'>Future with Hybrid</p> */}
+        {/* <p className='home-p'>Cloud Management</p> */}
+        {/* <p className='home-p'>and Deployment</p> */}
      </div>
      <div className='home-img'>
      <img className='home-image-1' src='./images/1.png' alt='home' />
